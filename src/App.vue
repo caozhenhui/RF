@@ -1,23 +1,35 @@
 <template>
   <div id="app">
-    <img src="./assets/logo.png">
-    <router-view/>
+    <div class="container">
+      <head-moudle></head-moudle>
+      <router-view/>
+    </div>
+    <div class="foot-box">
+      <footer-moudle></footer-moudle>
+    </div>
   </div>
 </template>
 
 <script>
+import HeadMoudle from './components/common/HeadMoudle'
+import FooterMoudle from './components/common/FooterMoudle'
 export default {
-  name: 'App'
+  name: 'App',
+  components: {
+    HeadMoudle, FooterMoudle
+  }
 }
 </script>
-
-<style>
+<style lang="scss" scoped>
 #app {
-  font-family: 'Avenir', Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
+  width: 1280px;
+  margin: 0 auto;
+  .container {
+    min-height: 100%;
+    padding-bottom: 80px;
+  }
+  .foot-box {
+    margin-top: -80px;
+  }
 }
 </style>
