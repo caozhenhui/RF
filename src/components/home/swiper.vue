@@ -1,11 +1,21 @@
 <template>
 <div class="swiper-container">
   <div class="swiper-wrapper">
-    <div class="swiper-slide">Slide 1</div>
-    <div class="swiper-slide">Slide 2</div>
-    <div class="swiper-slide">Slide 3</div>
-    <div class="swiper-slide">Slide 4</div>
-    <div class="swiper-slide">Slide 5</div>
+    <div class="swiper-slide">
+      <img src="../../../static/images/swiper1.jpg"/>
+    </div>
+    <div class="swiper-slide">
+      <img src="../../../static/images/swiper2.jpg"/>
+    </div>
+    <div class="swiper-slide">
+      <img src="../../../static/images/swiper3.jpg"/>
+    </div>
+    <div class="swiper-slide">
+      <img src="../../../static/images/swiper4.jpg"/>
+    </div>
+    <div class="swiper-slide">
+       <img src="../../../static/images/swiper5.jpg"/>
+    </div>
   </div>
 </div>
 </template>
@@ -21,7 +31,7 @@ export default {
         direction: 'vertical',
         loop: true,
         slidesPerView: 3,
-        spaceBetween: 30,
+        spaceBetween: 10,
         autoplay: 6000,
         autoplayDisableOnInteraction: false
       })
@@ -34,7 +44,14 @@ export default {
   padding: 0 16px;
   height: 560px;
   .swiper-slide {
+    width: 446px;
+    height: 180px;
+    overflow: hidden;
     border: 1px solid #ddd;
+    img {
+      width: 100%;
+      height: 100%;
+    }
   }
 }
 </style>

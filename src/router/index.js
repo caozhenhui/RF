@@ -18,6 +18,27 @@ export default new Router({
       component () {
         return import('@/view/Set')
       }
+    },
+    {
+      path: '/strategy',
+      name: 'strategy',
+      component () {
+        return import('@/view/Strategy')
+      }
+    },
+    {
+      path: '/register',
+      name: 'register',
+      component () {
+        return import('@/view/Register')
+      }
+    },
+    {
+      path: '/download',
+      name: 'download',
+      component () {
+        return import('@/view/Download')
+      }
     }
   ]
 })

@@ -1,7 +1,7 @@
 <template>
 <div class="home">
   <div class="swiper">
-    <h2>玩家展示</h2>
+    <h2>游戏展示</h2>
     <swiper></swiper>
   </div>
     <div class="role">
