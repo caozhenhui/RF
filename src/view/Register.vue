@@ -4,7 +4,7 @@
         <!-- <a href="http://180.101.78.174:81/">
             点击注册
         </a> -->
-        <iframe src="http://180.101.78.174:81/" frameborder="0"></iframe>
+        <iframe src="http://180.101.78.174:81/zc/index.php" frameborder="0"></iframe>
     </div>
 </template>
 
