@@ -5,7 +5,7 @@
       PVPRF
     </h1>
     <h2>
-      QQ交流群：850327333
+      专为喜欢PVP设置的RF服务器
     </h2>
     <ul class="head-moudle__memu">
       <li v-for="item in memuList" :key="item.id" @click="switcherRouter(item.id)">
