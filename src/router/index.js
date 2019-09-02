@@ -39,6 +39,13 @@ export default new Router({
       component () {
         return import('@/view/Download')
       }
+    },
+    {
+      path: '/sponsor',
+      name: 'sponsor',
+      component () {
+        return import('@/view/Sponsor')
+      }
     }
   ]
 })
