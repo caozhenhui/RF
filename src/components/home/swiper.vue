@@ -2,19 +2,16 @@
 <div class="swiper-container">
   <div class="swiper-wrapper">
     <div class="swiper-slide">
-      <img src="../../../static/images/swiper1.jpg"/>
+      <img src="../../../static/images/swiper1.png"/>
     </div>
     <div class="swiper-slide">
-      <img src="../../../static/images/swiper2.jpg"/>
+      <img src="../../../static/images/swiper4.png"/>
     </div>
     <div class="swiper-slide">
-      <img src="../../../static/images/swiper3.jpg"/>
+      <img src="../../../static/images/swiper3.png"/>
     </div>
     <div class="swiper-slide">
-      <img src="../../../static/images/swiper4.jpg"/>
-    </div>
-    <div class="swiper-slide">
-       <img src="../../../static/images/swiper5.jpg"/>
+      <img src="../../../static/images/swiper2.png"/>
     </div>
   </div>
 </div>
