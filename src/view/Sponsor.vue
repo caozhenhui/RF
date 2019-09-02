@@ -1,6 +1,6 @@
 <template>
   <div class="sponsor">
-    sponsor
+    <img src="../../static/images/sponsor.jpg" />
   </div>
 </template>
 
@@ -11,4 +11,11 @@ export default {
 </script>
 
 <style lang='scss' scoped>
+.sponsor {
+  width: 1080px;
+  margin: 0 auto;
+  img {
+    width: 1080px;
+  }
+}
 </style>
