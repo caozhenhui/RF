@@ -6,6 +6,63 @@
         {{index + 1}}、{{item}}
       </li>
     </ul>
+    <h2>个性披风外观</h2>
+    <h3>阿克雷提亚(A族)-远装</h3>
+    <div class="pf-img-box">
+      <img src="../../static/images/a_y_1.png" alt="">
+      <img src="../../static/images/a_y_2.png" alt="">
+      <img src="../../static/images/a_y_3.png" alt="">
+    </div>
+    <h3>阿克雷提亚(A族)-近装</h3>
+    <div class="pf-img-box">
+      <img src="../../static/images/a_j_1.png" alt="">
+      <img src="../../static/images/a_j_2.png" alt="">
+      <img src="../../static/images/a_j_3.png" alt="">
+    </div>
+    <h3>阿克雷提亚(A族)-炮装</h3>
+    <div class="pf-img-box">
+      <img src="../../static/images/a_p_1.png" alt="">
+      <img src="../../static/images/a_p_2.png" alt="">
+      <img src="../../static/images/a_p_3.png" alt="">
+    </div>
+
+    <h3>贝尔托联邦(B族)-远装</h3>
+    <div class="pf-img-box">
+      <img src="../../static/images/b_y_1.png" alt="">
+      <img src="../../static/images/b_y_2.png" alt="">
+      <img src="../../static/images/b_y_3.png" alt="">
+    </div>
+    <h3>贝尔托联邦(B族)-近装</h3>
+    <div class="pf-img-box">
+      <img src="../../static/images/b_j_1.png" alt="">
+      <img src="../../static/images/b_j_2.png" alt="">
+      <img src="../../static/images/b_j_3.png" alt="">
+    </div>
+    <h3>贝尔托联邦(B族)-法装</h3>
+    <div class="pf-img-box">
+      <img src="../../static/images/b_f_1.png" alt="">
+      <img src="../../static/images/b_f_2.png" alt="">
+      <img src="../../static/images/b_f_3.png" alt="">
+    </div>
+
+    <h3>克拉(C族)-远装</h3>
+    <div class="pf-img-box">
+      <img src="../../static/images/c_y_1.png" alt="">
+      <img src="../../static/images/c_y_2.png" alt="">
+      <img src="../../static/images/c_y_3.png" alt="">
+    </div>
+    <h3>克拉(C族)-近装</h3>
+    <div class="pf-img-box">
+      <img src="../../static/images/c_j_1.png" alt="">
+      <img src="../../static/images/c_j_2.png" alt="">
+      <img src="../../static/images/c_j_3.png" alt="">
+    </div>
+    <h3>克拉(C族)-法装</h3>
+    <div class="pf-img-box" style="margin-bottom:20px;">
+      <img src="../../static/images/c_f_1.png" alt="">
+      <img src="../../static/images/c_f_2.png" alt="">
+      <img src="../../static/images/c_f_3.png" alt="">
+    </div>
   </div>
 </template>
 
@@ -38,13 +95,27 @@ export default {
 
 <style lang='scss' scoped>
 .set{
-  h2{
+  h2, h3{
     line-height: 60px;
   }
   ul{
     padding: 0 16px;
     li{
       line-height: 40px;
+    }
+  }
+  h3{
+     padding: 0 16px;
+  }
+  .pf-img-box{
+    padding: 0 16px;
+    width: 700px;
+    height: 200px;
+    display: flex;
+    justify-content: space-between;
+    img{
+      width: 200px;
+      height: 200px;
     }
   }
 }
